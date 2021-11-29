@@ -3,7 +3,7 @@ import math
 from nltk.tokenize import sent_tokenize, word_tokenize
 import re
 import string
-from utils import stopwords
+from .utils import stopwords
 from collections import Counter
 
 def clean_text(raw_text:str):
